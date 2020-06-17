@@ -1,0 +1,108 @@
+/*Alterar para todos os elementos*/
+html * {
+    margin: 0px;
+    max-width: 100%;
+}
+body{
+    background-color: #111111;
+}
+#logotipo{
+    width: 300px;
+    margin: 20px;
+}
+
+#menu {
+    
+    /*Cor de fundo*/
+    background-color: #593806;
+    
+    /*Margem inferior*/
+    margin-bottom: 20px;
+    
+    /*Borda de cima*/
+    border-top: 10px solid #3f2702;
+    
+    /*Borda de baixo*/
+    border-bottom: 10px solid #3f2702;
+
+    /*Preenchimento*/
+    padding: 10px;
+
+    /*Habilitar o modo grid*/
+    display: grid;
+
+    /*Quantas colunas*/
+    grid-template-columns: repeat(4, 1fr);
+
+    /*Alinhamento central do texto*/
+    text-align: center;
+}
+
+#menu a {
+
+    color: whitesmoke;
+
+    /*Letra Maiúscula*/
+    text-transform: uppercase;
+
+    /*Estilo de texto*/
+    text-decoration: none;
+
+    /*Fonte*/
+    font-family: sans-serif;
+
+}
+
+main{
+    height: 600px;
+
+    /*Habilitar o modo grid*/
+    display: grid;
+
+    /*Quantas colunas*/
+    grid-template-columns: repeat(3, 1fr);
+
+    /*Espaço entre colunas*/
+    gap: 20px;
+}
+
+.item {
+
+    /*Cor de fundo*/
+    background-color: #cfa76e;
+
+    /*Fonte*/
+    font-family: sans-serif;
+    
+    /*Letras Maiusculas*/
+    text-transform: uppercase;
+    
+    /*Magem*/
+    margin: 20px;
+    
+    /*Cor da fonte*/
+    color: #593806;
+
+    /*Borda superioe*/
+    border-top: 5px solid #593806;
+    
+    /*Bordas arredondadas*/
+    border-radius: 1%;
+    
+    /*Texto centralizado*/
+    text-align: center;
+}
+
+.rodape {
+    background-color: #593806;
+    height: 100px;
+
+    /*Habilita o modo de linhas e colunas*/
+    display: grid;
+    
+    /*Alinha na horizontal*/
+    justify-content: center;
+
+    /*Alinha na vertical*/
+    align-content: center;
+}
